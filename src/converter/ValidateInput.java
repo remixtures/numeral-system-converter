@@ -30,7 +30,7 @@ public class ValidateInput {
         if (input.hasNextInt()) {
             targetRadix = input.nextInt();
         } else {
-            System.out.println("error: target radix nor provided");
+            System.out.println("error: target radix not provided");
             return;
         }
         if (!validateRadix(targetRadix)) {
